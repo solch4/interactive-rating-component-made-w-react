@@ -1,0 +1,27 @@
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  font-size: 16px;
+  border: none;
+  background: var(--dark-blue);
+  color: var(--medium-grey);
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: inherit;
+  margin: 1.75rem 0;
+}
+
+.n-button:hover{
+  background: var(--orange);
+  color: var(--white);
+}
+.n-button:focus{
+  background: var(--light-grey);
+  color: var(--white);
+}
